@@ -24,7 +24,7 @@ export default {
           900: "#111827",
           950: "#030712",
         },
-        secondary: {
+        primary: {
           50: "#F0FAFB",
           100: "#D8F0F5",
           200: "#B7E1EA",
@@ -37,7 +37,7 @@ export default {
           900: "#264453",
           950: "#142B38",
         },
-        primary: {
+        secondary: {
           50: "#ECFAFF",
           100: "#D4F3FF",
           200: "#B3ECFF",
