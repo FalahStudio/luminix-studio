@@ -17,6 +17,10 @@
     @apply overflow-x-hidden;
   }
 
+  .containerls {
+    @apply px-5 md:px-10 lg:px-20;
+  }
+
   @keyframes comet {
     0% {
       transform: rotate(0deg);

@@ -6,7 +6,7 @@ export default function MainLayout() {
         <>
             <Header />
 
-            <main className="max-w-full w-full mx-auto px-5 md:px-10 lg:px-20 ">
+            <main className="max-w-full w-full mx-auto">
                 <App />
             </main>
         </>

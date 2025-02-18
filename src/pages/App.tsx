@@ -1,9 +1,11 @@
+import HeroGallery from "../components/HeroGallery";
 import HeroSection from "../components/HeroSection";
 
 export default function App() {
     return (
         <>
             <HeroSection />
+            <HeroGallery />
             <p>p</p>
             <p>p</p>
             <p>p</p>

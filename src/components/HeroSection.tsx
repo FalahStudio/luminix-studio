@@ -1,3 +1,4 @@
+import { Button } from "@heroui/react";
 import ElipsPattern from "../layouts/logo/ElipsPattern";
 
 export default function HeroSection() {
@@ -26,14 +27,29 @@ export default function HeroSection() {
     ]
 
     return (
-        <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-96px)] lg:h-[calc(100vh-112px)]">
+        <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-96px)] lg:h-[calc(100vh-112px)] containerls">
+            <div className="w-full h-full flex flex-col gap-6 justify-center items-center z-10 relative">
+                <h1 className="text-display-sm-bold md:text-display-lg-bold lg:text-display-2xl-bold w-full sm:w-2/3 md:w-2/3 text-center">
+                    Make The World <span className="bg-gradient-to-r from-[#328FA9] to-[#589baa] bg-clip-text text-transparent">Smile</span> With Beautiful Design
+                </h1>
+
+                <p className="text-body-md-regular md:text-body-lg-regular lg:text-body-xl-regular w-full sm:w-2/3 md:w-1/3 text-center">We create and design applications, websites, or other digital products with  </p>
+
+                <Button
+                    radius='full'
+                    className="bg-gradient-to-b from-[#285F76] via-[#2F90AB] to-[#42A8C2] border border-primary-300 text-body-md-semibold text-neutral-50 mt-4"
+                >
+                    Start Project
+                </Button>
+            </div>
+
             {glowBg.map((item, index) => (
                 <div key={index} className={`absolute h-[300px] w-[300px] bg-gradient-to-r from-[#264453] via-[#285F76] via-[#2F90AB] via-[#42A8C2] to-[#B7E1EA] blur-[200px] z-0 ${item.rotate} ${item.location}`}></div>
             ))}
 
             {circleBg.map((item, index) => (
                 <div key={index} className={`absolute inset-0 w-full h-full flex justify-center items-center overflow-hidden z-0 ${item.rotate}`}>
-                    <div className="animate-comet z-0">
+                    <div className="animate-comet">
                         <ElipsPattern
                             width={item.width}
                             height={item.height}
@@ -41,12 +57,6 @@ export default function HeroSection() {
                     </div>
                 </div>
             ))}
-
-            <div className="w-full h-full flex justify-center items-center z-10">
-                <h1 className="text-display-sm-bold md:text-display-lg-bold lg:text-display-2xl-bold w-2/3 md:w-1/2 text-center">
-                    Make The World <span className="bg-gradient-to-r from-[#328FA9] to-[#589baa] bg-clip-text text-transparent">Smile</span> With Beautiful Design
-                </h1>
-            </div>
         </div>
     )
 }

@@ -103,7 +103,7 @@ export default {
           "72px",
           {
             lineHeight: "90px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "700",
           },
         ],
