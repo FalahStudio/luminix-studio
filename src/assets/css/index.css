@@ -3,12 +3,33 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: "Urbanist";
-        font-style: normal;
-        font-weight: normal;
-        font-display: swap;
-        src: url(../fonts/urbanist/urbanist.ttf)
-            format("truetype");
+  @font-face {
+    font-family: "Urbanist";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/urbanist/urbanist.ttf) format("truetype");
+  }
+
+  body {
+    @apply bg-support-background;
+    @apply text-neutral-50;
+    @apply overflow-x-hidden;
+  }
+
+  @keyframes comet {
+    0% {
+      transform: rotate(0deg);
     }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @layer utilities {
+    .animate-comet {
+      animation: comet 10s linear infinite;
+      will-change: transform;
+    }
+  }
 }

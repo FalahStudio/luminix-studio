@@ -11,6 +11,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        support: {
+          background: "#121212",
+        },
         neutral: {
           50: "#F9FAFB",
           100: "#F3F4F6",
