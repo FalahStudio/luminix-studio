@@ -72,7 +72,7 @@ export default function Footer() {
     ];
 
     return (
-        <div className="containerls y-5 md:py-10 lg:py-20 bg-support-background flex flex-row flex-wrap justify-between">
+        <div className="containerls y-5 md:py-10 lg:py-20 bg-support-background flex flex-row flex-wrap justify-between z-20 relative">
             <div className="flex flex-col gap-5 w-full md:max-w-[399px]">
                 <Logo
                     width={329}
@@ -94,7 +94,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="p-6 rounded-md bg-gradient-to-l from-white/5 to-white/5 border border-neutral-600 flex flex-row gap-8 md:gap-12">
+            <div className="p-6 rounded-md bg-white/[0.02] border border-neutral-600 flex flex-row gap-8 md:gap-12">
                 {linkInformation.map((item, index) => (
                     <div
                         key={index}

@@ -52,32 +52,36 @@ export default function HeroGallery() {
     }, [xTranslation, width, duration, mustFinish]);
 
     return (
-        <motion.div
-            className="snap-x flex flex-row gap-4 bottom-0 w-full h-full mb-8 lg:mb-11"
-            ref={ref}
-            style={{ x: xTranslation }}
-            onHoverStart={() => {
-                setMushFinish(true);
-                setDuration(SLOW_DURATION);
-            }}
-            onHoverEnd={() => {
-                setMushFinish(true);
-                setDuration(FAST_DURATION);
-            }}
-        >
-            {duplicatedImages.map((item, index) => (
-                <div
-                    key={index}
-                    className="bg-gradient-to-r from-white/10 to-white/20 border border-neutral-50 p-2 rounded-lg flex-none w-auto cursor-pointer snap-start"
-                >
-                    <Image
-                        src={item}
-                        alt="Image"
-                        radius="sm"
-                        className="w-full h-full"
-                    />
-                </div>
-            ))}
-        </motion.div>
+        <div className="relative">
+            <motion.div
+                className="snap-x flex flex-row gap-4 bottom-0 w-full h-full mb-8 lg:mb-11"
+                ref={ref}
+                style={{ x: xTranslation }}
+                onHoverStart={() => {
+                    setMushFinish(true);
+                    setDuration(SLOW_DURATION);
+                }}
+                onHoverEnd={() => {
+                    setMushFinish(true);
+                    setDuration(FAST_DURATION);
+                }}
+            >
+                {duplicatedImages.map((item, index) => (
+                    <div
+                        key={index}
+                        className="bg-gradient-to-r from-white/10 to-white/20 border border-neutral-50 p-2 rounded-lg flex-none w-auto cursor-pointer snap-start"
+                    >
+                        <Image
+                            src={item}
+                            alt="Image"
+                            radius="sm"
+                            className="w-full h-full"
+                        />
+                    </div>
+                ))}
+            </motion.div>
+
+            <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-black/50 to-black/0 w-full h-full"></div>
+        </div>
     );
 }

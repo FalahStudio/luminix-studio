@@ -37,6 +37,7 @@ export default function HeroSection() {
 
                 <Button
                     radius='full'
+                    size="lg"
                     className="bg-gradient-to-b from-[#285F76] via-[#2F90AB] to-[#42A8C2] border border-primary-300 text-body-md-semibold text-neutral-50 mt-4"
                 >
                     Start Project

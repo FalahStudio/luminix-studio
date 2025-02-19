@@ -32,6 +32,7 @@ export default function Header() {
                         as={Link}
                         href="#"
                         radius='full'
+                        size='lg'
                         className="bg-gradient-to-b from-[#285F76] via-[#2F90AB] to-[#42A8C2] border border-primary-300 text-body-md-semibold text-neutral-50"
                     >
                         Let’s Talk
