@@ -53,7 +53,7 @@ export default function HeroGallery() {
 
     return (
         <motion.div
-            className="snap-x flex flex-row gap-4 bottom-0 w-full h-full"
+            className="snap-x flex flex-row gap-4 bottom-0 w-full h-full mb-8 lg:mb-11"
             ref={ref}
             style={{ x: xTranslation }}
             onHoverStart={() => {

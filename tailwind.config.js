@@ -111,7 +111,7 @@ export default {
           "60px",
           {
             lineHeight: "72px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "700",
           },
         ],
@@ -119,7 +119,7 @@ export default {
           "48px",
           {
             lineHeight: "60px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "700",
           },
         ],
@@ -127,7 +127,7 @@ export default {
           "36px",
           {
             lineHeight: "44px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "700",
           },
         ],
@@ -191,7 +191,7 @@ export default {
           "72px",
           {
             lineHeight: "90px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "600",
           },
         ],
@@ -199,7 +199,7 @@ export default {
           "60px",
           {
             lineHeight: "72px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "600",
           },
         ],
@@ -207,7 +207,7 @@ export default {
           "48px",
           {
             lineHeight: "60px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "600",
           },
         ],
@@ -215,7 +215,7 @@ export default {
           "36px",
           {
             lineHeight: "44px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "600",
           },
         ],
@@ -279,7 +279,7 @@ export default {
           "72px",
           {
             lineHeight: "90px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "500",
           },
         ],
@@ -287,7 +287,7 @@ export default {
           "60px",
           {
             lineHeight: "72px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "500",
           },
         ],
@@ -295,7 +295,7 @@ export default {
           "48px",
           {
             lineHeight: "60px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "500",
           },
         ],
@@ -303,7 +303,7 @@ export default {
           "36px",
           {
             lineHeight: "44px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "500",
           },
         ],
@@ -367,7 +367,7 @@ export default {
           "72px",
           {
             lineHeight: "90px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "400",
           },
         ],
@@ -375,7 +375,7 @@ export default {
           "60px",
           {
             lineHeight: "72px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "400",
           },
         ],
@@ -383,7 +383,7 @@ export default {
           "48px",
           {
             lineHeight: "60px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "400",
           },
         ],
@@ -391,7 +391,7 @@ export default {
           "36px",
           {
             lineHeight: "44px",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "400",
           },
         ],
