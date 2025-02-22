@@ -30,7 +30,7 @@ export default function ProjectSection() {
                 </div>
 
                 <div className="col-span-1 flex flex-col gap-4 justify-end">
-                    <p className="text-body-md-regular w-full text-end">
+                    <p className="text-body-md-regular w-full text-start md:text-end">
                         We help our clients, from a cool idea to a million-dollar product. And we are very proud to become part of their journey.
                     </p>
 
