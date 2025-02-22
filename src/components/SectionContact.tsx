@@ -12,7 +12,7 @@ export default function SectionContact() {
 
     return (
         <>
-            <div className="py-5 md:py-10 lg:py-20 containerl flex flex-col justify-center items-center w-full relative overflow-hidden">
+            <div className="py-5 md:py-10 lg:py-20 containerl flex flex-col justify-center items-center w-full relative">
                 <div className="flex flex-col gap-5 items-center w-full sm:w-3/3 lg:w-2/3 xl:w-1/3 z-10">
 
                     <h1 className="text-display-sm-bold md:text-display-lg-bold lg:text-display-2xl-bold w-full text-center ">
@@ -48,12 +48,14 @@ export default function SectionContact() {
                     <div key={index} className={`absolute h-[300px] w-[300px] bg-gradient-to-r from-[#264453] via-[#285F76] via-[#2F90AB] via-[#42A8C2] to-[#B7E1EA] blur-[200px] z-0 ${item.rotate} ${item.location}`}></div>
                 ))}
 
-                <div className={`absolute w-full h-full flex justify-center items-center z-0 top-36`}>
-                    <div className="animate-comet">
-                        <ElipsPattern
-                            width={720}
-                            height={720}
-                        />
+                <div className="absolute inset-0 h-full w-full overflow-hidden">
+                    <div className={`absolute w-full h-full flex justify-center items-center z-0 top-36`}>
+                        <div className="animate-comet">
+                            <ElipsPattern
+                                width={720}
+                                height={720}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

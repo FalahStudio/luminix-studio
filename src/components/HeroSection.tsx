@@ -44,20 +44,24 @@ export default function HeroSection() {
                 </Button>
             </div>
 
-            {glowBg.map((item, index) => (
-                <div key={index} className={`absolute h-[300px] w-[300px] bg-gradient-to-r from-[#264453] via-[#285F76] via-[#2F90AB] via-[#42A8C2] to-[#B7E1EA] blur-[200px] z-0 ${item.rotate} ${item.location}`}></div>
-            ))}
+            <div className="absolute w-full h-full inset-0 overflow-hidden">
+                {glowBg.map((item, index) => (
+                    <div key={index} className={`absolute h-[300px] w-[300px] bg-gradient-to-r from-[#264453] via-[#285F76] via-[#2F90AB] via-[#42A8C2] to-[#B7E1EA] blur-[200px] z-0 ${item.rotate} ${item.location}`}></div>
+                ))}
+            </div>
 
-            {circleBg.map((item, index) => (
-                <div key={index} className={`absolute inset-0 w-full h-full flex justify-center items-center overflow-hidden z-0 ${item.rotate}`}>
-                    <div className="animate-comet">
-                        <ElipsPattern
-                            width={item.width}
-                            height={item.height}
-                        />
+            <div className="absolute inset-0 h-full w-full overflow-hidden">
+                {circleBg.map((item, index) => (
+                    <div key={index} className={`absolute inset-0 w-full h-full flex justify-center items-center overflow-hidden z-0 ${item.rotate}`}>
+                        <div className="animate-comet">
+                            <ElipsPattern
+                                width={item.width}
+                                height={item.height}
+                            />
+                        </div>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
     )
 }

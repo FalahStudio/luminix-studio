@@ -72,7 +72,7 @@ export default function Footer() {
     ];
 
     return (
-        <div className="containerls y-5 md:py-10 lg:py-20 bg-support-background flex flex-row flex-wrap gap-6 md:justify-between z-20 relative">
+        <div className="containerls y-5 md:py-10 lg:py-20 bg-support-background flex flex-row flex-wrap gap-10 md:justify-between z-20 relative">
             <div className="flex flex-col gap-5 w-full md:max-w-[399px]">
                 <Logo
                     width={329}

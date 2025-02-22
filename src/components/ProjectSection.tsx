@@ -23,7 +23,7 @@ export default function ProjectSection() {
         },
     ]
     return (
-        <div className="containerls py-5 md:py-10 lg:py-20 relative flex flex-col gap-10 md:gap-20 overflow-hidden">
+        <div className="containerls py-5 md:py-10 lg:py-20 relative flex flex-col gap-10 md:gap-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
                 <div className="col-span-1">
                     <h1 className="text-display-xs-bold md:text-display-sm-bold lg:text-display-lg-bold w-full md:w-3/3 lg:w-2/3">Amazing project we have done</h1>
