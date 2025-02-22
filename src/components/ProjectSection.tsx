@@ -34,7 +34,7 @@ export default function ProjectSection() {
                         We help our clients, from a cool idea to a million-dollar product. And we are very proud to become part of their journey.
                     </p>
 
-                    <div className="flex justify-end">
+                    <div className="flex justify-start md:justify-end">
                         <Button
                             radius='full'
                             size="lg"
