@@ -38,7 +38,7 @@ export default function InformationSection() {
         }
     ];
     return (
-        <div className="py-5 md:py-10 lg:py-20 containerl flex flex-col justify-center items-center w-full relative">
+        <div className="py-5 md:py-10 lg:py-20 containerl flex flex-col justify-center items-center w-full relative overflow-hidden">
             <div className="flex flex-row flex-wrap gap-12 justify-center w-full sm:w-3/3 lg:w-2/3 xl:w-1/3">
                 {information.map((item, index) => (
                     <div

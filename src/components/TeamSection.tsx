@@ -38,7 +38,7 @@ export default function TeamSection() {
     };
 
     return (
-        <div className="py-10 flex flex-col justify-center items-center w-full relative">
+        <div className="py-10 flex flex-col justify-center items-center w-full relative overflow-hidden">
             <h1 className="ext-display-xs-bold md:text-display-sm-bold lg:text-display-lg-bold w-full text-center">Our Friendly Team</h1>
             <p className="text-body-xs-regular md:text-body-sm-regular lg:text-body-md-regular w-full text-center">
                 Extend social listening, analysis, content marketing, and engagement.

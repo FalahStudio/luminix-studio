@@ -85,7 +85,7 @@ export default function ReviewSection() {
     };
 
     return (
-        <div className="containerls py-5 md:py-10 lg:py-20 relative">
+        <div className="containerls py-5 md:py-10 lg:py-20 relative overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 lg:gap-20 xl:gap-32">
                 <div className="col-span-1 flex flex-col gap-5 w-full md:w-2/3">
                     <h1 className="text-display-xs-bold md:text-display-sm-bold lg:text-display-lg-bold w-full">Our customers love what we do</h1>

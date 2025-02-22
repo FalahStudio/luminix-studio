@@ -27,7 +27,7 @@ export default function HeroSection() {
     ]
 
     return (
-        <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-96px)] lg:h-[calc(100vh-112px)] containerls">
+        <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-96px)] lg:h-[calc(100vh-112px)] containerls overflow-hidden">
             <div className="w-full h-full flex flex-col gap-6 justify-center items-center z-10 relative">
                 <h1 className="text-display-sm-bold md:text-display-lg-bold lg:text-display-2xl-bold w-full sm:w-2/3 md:w-2/3 text-center">
                     Make The World <span className="bg-gradient-to-r from-[#328FA9] to-[#589baa] bg-clip-text text-transparent">Smile</span> With Beautiful Design

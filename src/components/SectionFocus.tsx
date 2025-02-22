@@ -24,8 +24,8 @@ export default function SectionFocus() {
     ];
 
     return (
-        <div className="containerls py-10 flex flex-col justify-center items-center gap-10 md:gap-20 w-full h-[90vh] relative">
-            <h1 className="ext-display-xs-bold md:text-display-sm-bold lg:text-display-lg-bold w-full text-center">What we focus on</h1>
+        <div className="containerls py-10 flex flex-col justify-center items-center gap-10 md:gap-20 w-full h-[90vh] relative overflow-hidden">
+            <h1 className="text-display-xs-bold md:text-display-sm-bold lg:text-display-lg-bold w-full text-center">What we focus on</h1>
 
             <div className="relative flex justify-center w-full h-full gap-2">
                 {focus.map((item, index) => (

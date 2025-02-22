@@ -12,7 +12,7 @@ export default function SectionContact() {
 
     return (
         <>
-            <div className="py-5 md:py-10 lg:py-20 containerl flex flex-col justify-center items-center w-full relative">
+            <div className="py-5 md:py-10 lg:py-20 containerl flex flex-col justify-center items-center w-full relative overflow-hidden">
                 <div className="flex flex-col gap-5 items-center w-full sm:w-3/3 lg:w-2/3 xl:w-1/3 z-10">
 
                     <h1 className="text-display-sm-bold md:text-display-lg-bold lg:text-display-2xl-bold w-full text-center ">
