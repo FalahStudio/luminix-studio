@@ -45,8 +45,8 @@ export default function InformationSection() {
                         key={index}
                         className="flex flex-col items-center w-[172px]"
                     >
-                        <h6 className="text-display-xl-bold">{item.title}{item.prefix}</h6>
-                        <span className="text-body-lg-medium">{item.desc}</span>
+                        <h6 className="text-display-sm-bold md:text-display-lg-bold lg:text-display-xl-bold">{item.title}{item.prefix}</h6>
+                        <span className="text-body-sm-medium md:text-body-md-medium lg:text-body-lg-medium">{item.desc}</span>
                     </div>
                 ))}
             </div>

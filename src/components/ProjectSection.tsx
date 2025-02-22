@@ -53,8 +53,8 @@ export default function ProjectSection() {
                     >
                         <div className="flex flex-col justify-between gap-4">
                             <div className="flex flex-col gap-2">
-                                <h6 className="text-display-xl-bold text-neutral-100">{item.title}</h6>
-                                <p className="text-body-md-regular text-neutral-300">{item.desc}</p>
+                                <h6 className="text-display-sm-bold md:text-display-lg-bold lg:text-display-xl-bold text-neutral-100">{item.title}</h6>
+                                <p className="text-body-sm-regular md:text-body-md-regular text-neutral-300">{item.desc}</p>
                             </div>
                             <div className="flex">
                                 <Button
