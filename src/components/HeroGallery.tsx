@@ -52,7 +52,7 @@ export default function HeroGallery() {
     }, [xTranslation, width, duration, mustFinish]);
 
     return (
-        <div className="relative">
+        <div className="relative overflow-hidden">
             <motion.div
                 className="snap-x flex flex-row gap-4 bottom-0 w-full h-full mb-8 lg:mb-11"
                 ref={ref}

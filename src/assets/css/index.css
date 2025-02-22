@@ -18,7 +18,7 @@
   }
 
   .containerls {
-    @apply px-5 md:px-10 lg:px-20;
+    @apply px-5 md:px-10 lg:px-20 overflow-x-hidden;
   }
 
   @keyframes comet {
